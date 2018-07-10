@@ -4,7 +4,11 @@ class Github extends Component {
   render() {
     return (
       <div className="Github">
-        GitHub (now a component)
+        <img
+          src="http://www.aha.io/assets/github.7433692cabbfa132f34adb034e7909fa.png"
+          alt="GitHub"
+          className="logo"
+        />
       </div>
     )
   }
