@@ -33,3 +33,7 @@
   background-color: #0184be;
   font-family: "Gentium Book Basic", serif;
 }
+
+h2:first-letter {
+  text-transform:capitalize;
+ }
