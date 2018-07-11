@@ -4,6 +4,7 @@ import { Route, NavLink, Switch } from 'react-router-dom'
 import './App.css'
 import Pokemon from './Pokemon'
 import Homework from './Homework'
+import Spotify from './Spotify'
 
 class App extends Component {
   render() {
@@ -20,10 +21,14 @@ class App extends Component {
           <li>
             <NavLink to="/homework">Homework</NavLink>
           </li>
+          <li>
+            <NavLink to="/spotify">Spotify</NavLink>
+          </li>
         </ul>
         <Switch>
           <Route path="/pokemon" component={Pokemon} />
           <Route path="/homework" component={Homework} />
+          <Route path="/spotify" component={Spotify} />
           <Route render={() => (
             <p>To get started, click one of the links above.</p>
           )}/>
