@@ -28,7 +28,7 @@ class SpotifyInfo extends Component {
   render() {
     return (
       <div className="SpotifyInfo">
-        <h2>{this.state.artist.name}</h2>
+        <h2>{this.state.artist.id}</h2>
 
       </div>
     )

@@ -35,7 +35,7 @@ class Spotify extends Component {
           </div>
           <div>
             <button type="submit">
-              Look Up A Spotify Artist
+              Look up a Spotify Artist
             </button>
           </div>
         </form>
